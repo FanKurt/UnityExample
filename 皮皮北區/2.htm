@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>臺中科技大學</h2>
+    <p>國立台中科技大學於民國100年12月1日起，由國立臺中技術學院改名，並與國立臺中護理專科學校完成合併。以「落實創新服務」及「培育立型人才」為理念。現有五大學制：日間部、進修部、空中學院、進修學院、附設高商，採多軌並進，培養各領域的產學技術人才。
+    </p>
+  	<img src="img/pipi0201.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi0201.jpg" ><br>臺中科技大學</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

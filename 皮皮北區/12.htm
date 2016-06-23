@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>台中科博館</h2>
+    <p>		台中國立自然科學博物館是行政院於民國69年公布的國家12項建設文化建設計畫中三座科學博物館最先實現的一座。 位於台中市北區館前路一號，歷經15年的努力於民國82年國立自然科學博物館全館落成對外開放，是台灣首座將自然 科學生活化、也是國內第一座擁有最現代化設備的大型博物館，規模可與先進國家媲美。國立自然科學博物館更為讓 國人認識、瞭解臺灣本土的植物生態，於88年開幕一座植栽756種臺灣原生種植物並劃分八大生態區熱帶雨林溫室的植物園。
+<img src="img/pipi1201.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi1201.jpg" ><br>台中科博館</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

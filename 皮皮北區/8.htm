@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>中友百貨</h2>
+    <p>		為台灣臺中市年度營業額前三大的百貨公司之一，也是臺中市營運最久的百貨公司，成立於1992年4月。位於「世紀21廣場」大樓，樓層規劃為地下五樓至地上十五樓並分為A、B、C三棟（共2萬7千多坪，營業面積2萬2千多坪），另有一棟食品風味館。鄰近國立臺中科技大學、國立臺灣體育運動大學、中國醫藥大學以及國立臺中一中，共同形成一中商圈，是台中市重要的商圈之一。
+<img src="img/pipi0801.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi0801.jpg" ><br>中友百貨</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>臺中市長公館</h2>
+    <p>		臺中市長公館建於1929年〈民國18年〉，原是日治時期眼科醫師「公園武熊」的住宅，戰後，由臺中市政府接收作為「市長公館」，自首任至第十任民選市長都曾居住於此。本館於2002公告登錄為臺中市市歷史建築，是臺中市保存情況最完整的日治時期洋房宅院建築。
+    自2006年起臺中市政府委託博物園國際股份有限公司經營管理，以「創意、設計」為定位，轉型為休憩活動空間，提供展覽、創意設計相關商品展售與餐飲等服務，為大臺中地區重要之文化藝術交流平台。
+    </p>
+  	<img src="img/pipi0501.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi0501.jpg" ><br>臺中市長公館</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

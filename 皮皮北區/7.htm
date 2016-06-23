@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>中山堂</h2>
+    <p>		臺中中山堂位於歷史悠久的中正公園旁，於1989(民國78)年正式啟用，有著呈現四分之一圓的優美弧形的建築外觀，為一座地下二層、地上三層的建築體。
+	擁有足夠容納1,654人進場觀賞演出的雙層觀眾席，為臺灣中部設備最完善的演出場地，也是國內外知名演藝團體在中部演出的首選之地。華人電影圈重要盛會金馬獎在此舉辦過兩屆。</p>
+  	<img src="img/pipi0701.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi0701.jpg" ><br>中山堂</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

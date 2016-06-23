@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>中國醫藥大學</h2>
+    <p>中國醫藥大學創校50年來，秉持「仁、慎、勤、廉」的校訓，順應國家整體高等教育發展之政策，配合社會與產業界的需求，接軌全球學術研究界之趨勢，並就學校既有的優越基礎審時度勢、分析評估，加以妥善規劃，以醫藥衛生、健康照護、生命科學、生物科技、生物醫學工程等五大主軸領域為重點發展方向，並以中、西醫學結合的特色，弘揚中醫藥科學化與現代化為承先啟後，拓展延續維持中華民族命脈的瑰寶。
+    </p>
+  	<img src="img/pipi0401.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi0401.jpg" ><br>中國醫藥大學</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

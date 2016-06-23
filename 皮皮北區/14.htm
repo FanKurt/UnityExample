@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i14">
+  	<h2>石燈籠</h2>
+    <p>石燈籠早期是有錢人建造後奉獻給神社，目前這個石燈籠的保存相當完整，刻有「大正7年6月18日創建」、「昭和5年12月28日」&hellip;&hellip;等字樣，但因為石燈籠的製造與設置的時間相距12年，且廢置的時間也已經不可考，所以可說是一盞「謎樣」的石燈籠。</p>
+  	<img src="img/1387612907.jpg" />
+  </div>
+    <div class="tab-pane" id="i15">
+  	<h2>衛哨亭</h2>
+    <p>大門左邊的小建築物&mdash;&mdash;衛哨亭，是日治期間憲兵單位所遺留的警戒亭哨。衛哨亭的面積只有小小的1.96平方公尺，在那個用廣播宣導政令的時代裡，臺中放送局衛哨站，背負著眼觀四面、耳聽八方的責任，偶爾還需要架上機槍嚴陣以待。</p>
+  	<img src="img/1387612936.jpg" />
+  </div>
+    <div class="tab-pane" id="i16">
+  	<h2>防空洞</h2>
+    <p>月池的後面，至今仍留有日治時期的防空洞，推測應該是二次世界大戰期間，日本政府所留下的防空避難措施，但現今早已經荒廢。</p>
+  	<img src="img/1387612973.jpg" />
+  </div>
+    <div class="tab-pane" id="i17">
+  	<h2>木製裝置藝術品</h2>
+    <p>台中放送局目前由永進木器廠經營，一走進台中放送局大門就可以看到老樹下有多座木製裝置藝術品，老樹和彩色圓形裝置藝術相互融合，既創意又好看。</p>
+  	<img src="img/1387613005.jpg" />
+  </div>
+    <div class="tab-pane" id="i18">
+  	<h2>日池</h2>
+    <p>設置在建築物前的圓形日池，具有巴洛克庭園的強烈幾何、軸線感。</p>
+  	<img src="img/1387613036.jpg" />
+  </div>
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i14"><img width="60" src="img/1387612907.jpg" ><br>石燈籠</a></li>
+    <li><a href="#i15"><img width="60" src="img/1387612936.jpg" ><br>衛哨亭</a></li>
+    <li><a href="#i16"><img width="60" src="img/1387612973.jpg" ><br>防空洞</a></li>
+    <li><a href="#i17"><img width="60" src="img/1387613005.jpg" ><br>木製裝置藝術品</a></li>
+    <li><a href="#i18"><img width="60" src="img/1387613036.jpg" ><br>日池</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

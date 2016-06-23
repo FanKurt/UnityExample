@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B872AB2B-26F0-1908-407F-7E3ABA1D6520}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Vectrosity\Scripts\Curve\CurvePointControl.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Curve\DrawCurve.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Curve\SimpleCurve.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\DrawLines\DrawLines.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\DrawLines\DrawLinesMouse.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\DrawLines\DrawLinesTouch.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Ellipse\Ellipse1.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Ellipse\Ellipse2.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Grid\DrawGrid.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Highlight\Highlight.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Highlight\MakeSpheres.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Highlight\RotateAroundY.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Orbit\CreateStars.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Orbit\Orbit.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Orbit\RotateViewpoint.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\PartialLine\AnimatePartialLine.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Path\DrawPath.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Points\DrawPoints.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Scribblecube\CameraZoom.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Scribblecube\Scribblecube.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\SelectionBox\SelectionBox.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\SelectionBox\SelectionBox2.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Spline\MakeSpline.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\SplineFollow\SplineFollow2D.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\SplineFollow\SplineFollow3D.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Text\TextDemo.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Xray\DrawBox.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Xray\VectorObject.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\Xray\XrayLineData.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple2DLine\Line.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple2DLine\ReallyBasicLine.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple2DLine\UniformTexturedLine.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple3DObject\Simple3D 2.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple3DObject\Simple3D 3.js" />
+     <Compile Include="Assets\Vectrosity\Scripts\_Simple3DObject\Simple3D.js" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Vectrosity\Shaders\ParticleZwrite.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Vectrosity\Shaders\Unlit .shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\QQQQ.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Vectrosity\Shaders\UnlitAlpha.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\NGUI\ReadMe - 2.6.4.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Vectrosity\Shaders\DepthMask.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Vectrosity\Shaders\SolidColor.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7193BAA1-21AE-3066-4F64-3DDEE3B9C2C4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

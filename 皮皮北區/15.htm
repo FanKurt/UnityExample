@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i19">
+  	<h2>放送頭</h2>
+    <p>935年台中放送局在公園裡頭所搭建的撥音台，外觀如同一日式石燈立碑，頂部內藏著音響設備</p>
+  	<img src="img/1387613148.jpg" />
+  </div>
+    <div class="tab-pane" id="i20">
+  	<h2>更樓</h2>
+    <p>為台灣現存唯一的更樓，原屬清朝富商吳鸞旅公館</p>
+  	<img src="img/1387613288.jpg" />
+  </div>
+    <div class="tab-pane" id="i21">
+  	<h2>孔子像</h2>
+    <p>位於台中神社原址正殿位置</p>
+  	<img src="img/1387613327.jpg" />
+  </div>
+    <div class="tab-pane" id="i22">
+  	<h2>湖心亭</h2>
+    <p>台中公園建於西元1903年(明治36年)，公園內最有名氣的「池亭」(現稱為湖心亭)，則於西元1908年(明治41年)完工，係台灣總督府為了迎接前來主持「台灣縱貫線鐵路全通式」的日本載仁親王所興建的「御休憩所」。</p>
+  	<img src="img/1387613375.jpg" />
+  </div>
+    <div class="tab-pane" id="i23">
+  	<h2>中山橋</h2>
+    <p>橋名各為「第一橋」，台灣光復後，改名為「中山橋」，而改建後的中山橋維持木造型式，外觀較似當年 舊橋。</p>
+  	<img src="img/1387613411.jpg" />
+  </div>
+    <div class="tab-pane" id="i24">
+  	<h2>中正橋</h2>
+    <p>橋名各為「第二橋」，台灣光復後，改名為「中正橋」，後來經過改建，中正橋成為鋼筋混凝土製的水泥橋。</p>
+  	<img src="img/1387613440.jpg" />
+  </div>
+    <div class="tab-pane" id="i25">
+  	<h2>日月湖</h2>
+    <p>為自然的水塘，經人工整修為約4100坪的水池，供遊客划船遊湖。</p>
+  	<img src="img/1387613471.jpg" />
+  </div>
+    <div class="tab-pane" id="i26">
+  	<h2>望月亭</h2>
+    <p>本門樓於1948年由台中市長陳宗熙重新整修，並改名「望月亭」，全台中的八個城門，只剩這個門樓。</p>
+  	<img src="img/1387613507.jpg" />
+  </div>
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i19"><img width="60" src="img/1387613148.jpg" ><br>放送頭</a></li>
+    <li><a href="#i20"><img width="60" src="img/1387613288.jpg" ><br>更樓</a></li>
+    <li><a href="#i21"><img width="60" src="img/1387613327.jpg" ><br>孔子像</a></li>
+    <li><a href="#i22"><img width="60" src="img/1387613375.jpg" ><br>湖心亭</a></li>
+    <li><a href="#i23"><img width="60" src="img/1387613411.jpg" ><br>中山橋</a></li>
+    <li><a href="#i24"><img width="60" src="img/1387613440.jpg" ><br>中正橋</a></li>
+    <li><a href="#i25"><img width="60" src="img/1387613471.jpg" ><br>日月湖</a></li>
+    <li><a href="#i26"><img width="60" src="img/1387613507.jpg" ><br>望月亭</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>

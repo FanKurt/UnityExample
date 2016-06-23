@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\NantouApp\Assets\Nantou\myScript\Photo.cs">
+    <Files>
+      <File FileName="D:\NantouApp\Assets\Nantou\myScript\Photo.cs" Line="39" Column="72" />
+      <File FileName="D:\NantouApp\Assets\Nantou\myScript\MainGame.cs" Line="128" Column="34" />
+      <File FileName="D:\NantouApp\Assets\Nantou\myScript\Tag.cs" Line="57" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

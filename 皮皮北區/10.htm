@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>123</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+	html,body{
+		max-height:800px;
+		max-width:1280px;
+		margin:0 auto;
+		background-color:#efefef;
+	}
+	.tab-pane img{
+	  border:1px solid #999;
+	  padding:5px;
+	  background:#FFF;
+	  max-width:1000px;
+	  width:90%;
+	  margin:10px auto;
+	  display:block;
+	}
+	</style>
+</head> 
+<body>
+
+<div class="tabbable tabs-below"> 
+<div class="tab-content">
+    <div class="tab-pane active" id="i7">
+  	<h2>文英館</h2>
+    <p>		文英館，位於臺中市北區雙十路，為台中市文化局大墩文化中心的附屬展場與劇場。鄰近台中公園、一中商圈、臺中一中、國立臺灣體育運動大學旁。佔地面積7,679平方公尺，建坪4,710平方公尺。
+
+目前收藏臺灣民俗文物三千餘件，近年並增加策展活動並推廣臺灣傳統版印及工藝為主。主要展示場地有：圓夢廳、戶外星空舞台、沙龍廳、排練室、臺灣傳統版印特藏室、文英畫廊、主題畫廊、研習教室。</p>
+  	<img src="img/pipi1001.jpg" />
+  </div>
+<ul class="nav nav-tabs" style="padding-left: 30px;" id="myTab">
+    <li class="active"><a href="#i7"><img width="60" src="img/pipi1001.jpg" ><br>文英館</a></li>
+  </ul>
+ 
+</div>            
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+</body>
+</html>
